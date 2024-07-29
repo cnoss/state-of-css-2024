@@ -1,0 +1,70 @@
+/* Wall
+############################################################################ */
+
+.wall {
+  display: grid;
+  padding: 0;
+  margin-bottom: 50vh;
+  grid-template-columns: repeat(10 , 1fr);
+  grid-template-rows: auto;
+  perspective: 600px;
+
+
+  @media (aspect-ratio <= 3/4){
+    grid-template-columns: repeat(5 , 1fr);
+  }
+
+  @media (aspect-ratio >= 3/4) and (aspect-ratio <= 5/3) {
+    grid-template-columns: repeat(10 , 1fr);
+  }
+
+  @media (aspect-ratio >= 16/9) {
+    grid-template-columns: repeat(15 , 1fr);
+  }
+
+  img{
+    display: block;
+    width: 100%;
+    aspect-ratio: 1/1;
+    filter: contrast(1.1);
+    mix-blend-mode: lighten;
+    object-fit: cover;
+    object-position: top center;
+    
+  }
+
+  .image-wrap{
+    position: relative;
+    z-index: 10;
+    display: block;
+    border: solid 2px var(--color-lightest);
+    aspect-ratio: 1/1;
+    background-color: var(--color-darkest);
+
+
+    a{
+      display: block;
+      aspect-ratio: 1/1;
+    }
+  }
+}
+
+/* Animation
+############################################################################ */
+
+/* Hier wird gearbeitet */
+
+/* Das Markup hat folgende Struktur:
+<section class="wall page" id="wall">
+  <div class="image-wrap">
+    <a href="…">
+      <img src="…" alt="…">
+    </a>
+  </div>
+  …
+</section>
+*/
+
+/* Add Keyframe Animations */
+
+/* Attach the animation to the wall elements. */

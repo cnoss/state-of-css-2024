@@ -1,0 +1,178 @@
+/* Navigation
+############################################################################ */
+
+.navigation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  view-transition-name: navigation;
+
+  .back-button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    padding: var(--fluid-space-s);
+    aspect-ratio: 1 / 1;
+    background-color: var(--color-interaction);
+    transition: all var(--tr-fast);
+
+    &:hover {
+      text-decoration: none;
+      transform: rotate(360deg);
+    }
+  }
+}
+
+@keyframes slide-out {
+  to {
+    translate: 0 -100vh;
+  }
+}
+
+@keyframes scale-in {
+  from {
+    scale: 0;
+  }
+}
+
+/* stylelint-disable-next-line selector-type-no-unknown */
+::view-transition-old(navigation) {
+  animation: 1s ease-in-out slide-out;
+}
+
+/* stylelint-disable-next-line selector-type-no-unknown */
+::view-transition-new(navigation) {
+  animation: 1s ease-in-out scale-in;
+}
+
+
+/* Settings Popover
+############################################################################ */
+
+.settings-popover {
+  position: fixed;
+  width: fit-content;
+  padding: var(--fluid-space-l);
+  border: var(--border-width) solid var(--color-fg);
+  margin: auto;
+  background: var(--color-bg);
+  color: var(--color-fg);
+  line-height: 2;
+  opacity: 0;
+  transform: translateY(-50px);
+  transition: transform 0.5s, opacity 0.5s, display 0.5s;
+
+  button {
+    border: none;
+    background: none;
+    filter: grayscale(1);
+  }
+
+  label {
+    width: 100%;
+  }
+
+  input,
+  select {
+    padding: 0.25rem 0.5rem;
+    font-size: 1rem;
+  }
+
+  &::backdrop {
+    background: rgb(0 0 0 / 70%);
+  }
+
+  .sr-only:not(:focus, :active) {
+    position: absolute;
+    overflow: hidden;
+    width: 1px;
+    height: 1px;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+
+  .two-by {
+    display: grid;
+    gap: var(--size-l);
+    grid-template-columns: 1fr 1fr;
+
+    & *{
+      &:hover{
+        cursor: pointer;
+      }
+    }
+  }
+
+  .close-btn {
+    position: absolute;
+    top: var(--size-xs);
+    right: var(--size-xs);
+
+    .icon {
+      color: var(--color-interaction);
+      font-size: var(--size-l);
+    }
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .settings-form-section {
+    display: grid;
+    margin-top: 1rem;
+  }
+
+  &:popover-open {
+    @starting-style {
+      opacity: 0;
+      transform: translateY(20px) scale(2);
+    }
+
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+/* Settings Toolbar
+############################################################################ */
+
+.settings-toolbar {
+  position: absolute;
+  top: var(--fluid-space-s);
+  right: var(--fluid-space-s);
+
+  .settings-list {
+    display: inline-grid;
+    gap: 0.5rem;
+
+    button {
+      height: 2.5rem;
+      border: none;
+      aspect-ratio: 1/1;
+      background: transparent;
+      color: var(--color-fg);
+      font-size: var(--size-l);
+      line-height: 0;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+:root{
+  &:has(input[value="dark"]:checked){
+    color-scheme: dark;
+  }
+
+  &:has(input[value="light"]:checked){
+    color-scheme: light;
+  }
+}
+

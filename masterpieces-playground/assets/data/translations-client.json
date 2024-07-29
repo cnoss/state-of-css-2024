@@ -1,0 +1,111 @@
+{
+  "date":{
+    "de": "Datum",
+    "en": "Date"
+  },
+  "all": {
+    "de": "Alle",
+    "en": "All"
+  },
+  "dating": {
+    "de": "Datierung",
+    "en": "Dating"
+  },
+  "dimensions": {
+    "de": "Maße",
+    "en": "Dimensions"
+  },
+  
+  "authorAndRights": {
+    "de": "Autor und Rechte",
+    "en": "Author & Rights"
+  },
+  "source": {
+    "de": "Quelle",
+    "en": "Source"
+  },
+  "allImages": {
+    "de": "Alle Abbildungen",
+    "en": "All Images"
+  },
+  "overall": {
+    "de": "Gesamtaufnahmen",
+    "en":"Overall"
+  },
+  "reverse":{
+    "de": "Rückseitenaufnahmen",
+    "en":"Reverse"
+  },
+  "irr":{
+    "de": "Infrarotaufnahmen",
+    "en":"Infrared Images" 
+  },
+  "xradiograph": {
+    "de": "Röntgenaufnahmen",
+    "en": "X-Radiographs"
+  },
+  "uvlight":{
+    "de": "UV-Fluoreszenzaufnahmen",
+    "en":"UV Images"
+    },
+  "detail":{
+    "de": "Detailaufnahmen",
+    "en":"Detail Images"
+  },
+  "photomicrograph":{
+    "de": "Mikroskopaufnahmen",
+    "en": "Photomicrographs"
+  },
+  "conservation":{
+    "de": "Restaurierung",
+    "en":"Conservation"
+  },
+  "other": {
+    "de": "Andere",
+    "en": "Other"
+  },
+  "analysis":{
+    "de": "Untersuchungsergebnisse",
+    "en":"Analysis"
+  },
+  "rkd": { 
+    "de": "Max J. Friedländer-Archiv",
+    "en":"Max J. Friedländer Archive"
+  },
+  "showMore":{
+    "de": "mehr Inhalte zeigen",
+    "en": "show more content"
+  },
+  "showLess":{
+    "de": "weniger Inhalte zeigen",
+    "en": "hide content"
+  },
+  "kindOfImage":{
+    "de": "Art der Abbildung",
+    "en": "File type / description"
+  },
+  "fileName":{
+    "de": "Dateiname",
+    "en": "File name"
+  },
+  "copiedToClipboard":{
+    "de": "Das Element wurde in die Zwischenablage kopiert.",
+    "en": "Element has been copied to clipboard."
+  },
+  "somethingWentWrong":{
+    "de": "Irgendetwas ist schief gelaufen :(",
+    "en": "Something went wrong :("
+  },
+  "prevWork":{
+    "de": "vorheriges",
+    "en": "previous"
+  },
+  "nextWork":{
+    "de": "nächstes",
+    "en": "next"
+  },
+  "imageInformation":{
+    "de": "Bildinformationen",
+    "en": "Image Information"
+  }
+}

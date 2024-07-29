@@ -1,0 +1,61 @@
+
+/* View Transtion for the whole application
+############################################################################ */
+
+@view-transition {
+  navigation: auto;
+}
+
+@media (prefers-reduced-motion) {
+  ::view-transition-group(*),
+  ::view-transition-old(*),
+  ::view-transition-new(*) {
+      animation: none !important;
+  }
+}
+
+::view-transition-group(root) {
+  animation-duration: 0.5s;
+}
+
+@keyframes slide-out {
+  to {
+    opacity: 1;
+    transform: scale(3) translateY(-100vh);
+  }
+}
+
+@keyframes move-out {
+  from {
+    transform: translateX(0%) scale(1);
+  }
+
+  to {
+    transform: translateX(100%) scale(2);
+  }
+}
+
+@keyframes move-in {
+  from {
+    transform: translateX(100%) scale(2);
+  }
+
+  to {
+    transform: translateX(0%) scale(1);
+  }
+}
+
+::view-transition-old(*) {
+  animation: 0.6s ease-in both move-out;
+}
+
+::view-transition-new(*) {
+  animation: 0.6s ease-in both move-in;
+}
+
+/* View Transition for single elements or groups
+############################################################################ */
+
+.title {
+  view-transition-name: heading;
+}

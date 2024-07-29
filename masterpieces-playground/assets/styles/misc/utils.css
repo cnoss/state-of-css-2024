@@ -1,0 +1,17 @@
+.is-hidden{
+  display: none !important;
+}
+
+.is-inline > *{
+  display: inline-block;
+}
+
+
+.has-grid{
+  @media screen and (width >= 768px){
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+}

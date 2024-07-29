@@ -1,0 +1,20 @@
+/* Detail
+############################################################################ */
+
+.detail{
+  display: flex;
+  overflow: clip;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  
+  p{
+    max-width: 60ch;
+    animation: linear detail both;
+    font-size: var(--size-l);
+    
+    /* Hier sollte gearbeitet werden. */
+  }
+}
+
+/* Add Keyframe Animations */

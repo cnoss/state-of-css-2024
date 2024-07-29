@@ -1,0 +1,61 @@
+/* Quote
+############################################################################ */
+
+.quote {
+  background-size: cover;
+
+  blockquote{
+    position: relative;
+    max-width: 50rem;
+    padding: var(--size-l);
+    border: solid var(--size-xs) var(--color-mi-lila);
+    border-radius: var(--size-m);
+    margin: auto;
+    background-color: var(--color-lightest);
+    box-shadow: 0 0 5em hsl(0deg 0 0 / 1%);
+    transform: scale(0.1);
+    transition: transform var(--tr-normal) ease-in-out, box-shadow var(--tr-normal) var(--tr-normal) ease-in-out;
+
+    &::after{
+      position: absolute;
+      z-index: 1;
+      bottom: -27px;
+      left: 44px;
+      display: block;
+      width: 0;
+      border-width: 27px 17px 0;
+      border-style: solid;
+      border-color: #FFF transparent;
+      content: '';}
+      
+    &::before{
+      position: absolute;
+      z-index: 0;
+      bottom: -40px;
+      left: 38px;
+      display: block;
+      width: 0;
+      border-width: 33px 23px 0;
+      border-style: solid;
+      border-color: var(--color-mi-lila) transparent;
+      content: '';
+    }
+
+    .cite-meta{
+      display: flex;
+      margin-top: var(--size-m);
+      color: var(--color-mi-lila);  
+
+      .date::before{
+        content: ', ';
+      }
+    }
+  }
+
+  &.is-in-view{
+    blockquote{
+      box-shadow: 0 0 5em hsl(0deg 0 0 / 80%);
+      transform: scale(1);
+    }
+  }
+}

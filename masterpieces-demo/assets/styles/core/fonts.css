@@ -1,0 +1,28 @@
+@font-face {
+  font-family: ibm-plex;  
+  font-weight: 200;
+  src: url("/assets/fonts/IBM_Plex_Sans/IBMPlexSans-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: ibm-plex;  
+  font-weight: 400;
+  src: url("/assets/fonts/IBM_Plex_Sans/IBMPlexSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: ibm-plex;  
+  font-weight: 500;
+  src: url("/assets/fonts/IBM_Plex_Sans/IBMPlexSans-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: ibm-plex;  
+  font-weight: 600;
+  src: url("/assets/fonts/IBM_Plex_Sans/IBMPlexSans-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: material-icons;
+  src: url("/assets/fonts/MaterialIcons/MaterialIconsOutlined-Regular.otf") format("opentype");
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="768px" height="1024px" viewBox="0 0 768 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Tablet</title>
+    <g id="Tablet" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="no-image" transform="translate(339.000000, 467.000000)">
+            <polygon id="Path" points="0 0 90 0 90 90 0 90"></polygon>
+            <path d="M79,71.4444444 L79,18.5555556 C79,14.4 75.6,11 71.4444444,11 L18.5555556,11 C14.4,11 11,14.4 11,18.5555556 L11,71.4444444 C11,75.6 14.4,79 18.5555556,79 L71.4444444,79 C75.6,79 79,75.6 79,71.4444444 Z M31.7777778,50.6666667 L41.2222222,62.0377778 L54.4444444,45 L71.4444444,67.6666667 L18.5555556,67.6666667 L31.7777778,50.6666667 Z" id="Shape" fill="#222222" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

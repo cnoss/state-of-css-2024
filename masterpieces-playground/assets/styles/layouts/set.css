@@ -1,0 +1,44 @@
+/* set
+############################################################################ */
+
+.set{
+  overflow: visible;
+  height: 500vh;
+  view-timeline-axis: block;
+  view-timeline-name: --section-pin-timeline;
+}
+
+@keyframes move {
+	to {
+		/* Move horizontally so that right edge is aligned against the viewport */
+		transform: translateX(calc(-100% + 100vw));
+	}
+}
+
+.pin-wrap-sticky {
+  position: sticky;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  padding-right: 30vw;
+  padding-left: 30vw;
+  overflow-x: hidden;
+}
+
+.pin-wrap {
+  display: flex;
+	width: 250vmax;
+	height: 100vh;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 50px 10vw;
+	animation: linear move forwards;
+	animation-range: contain 0% contain 100%;
+
+	/* Link animation to view-timeline */
+	animation-timeline: --section-pin-timeline;
+  
+
+	/* Hook animation */
+	will-change: transform;
+}

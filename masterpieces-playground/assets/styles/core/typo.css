@@ -1,0 +1,14 @@
+/* Title & Subtitle
+############################################################################ */
+
+.title{
+  margin-bottom: 0;
+  line-height: var(--lh-tight);
+}
+
+.subtitle{
+  padding-top: 0;
+  font-family: var(--ff-primary);
+  font-size: var(--size-l);
+  font-weight: var(--fw-medium);
+}

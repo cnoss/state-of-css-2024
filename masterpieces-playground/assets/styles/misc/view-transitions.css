@@ -1,0 +1,27 @@
+
+/* View Transtion for the whole application
+############################################################################ */
+
+@media (prefers-reduced-motion) {
+  ::view-transition-group(*),
+  ::view-transition-old(*),
+  ::view-transition-new(*) {
+      animation: none !important;
+  }
+}
+
+::view-transition-group(root) {
+  animation-duration: 0.5s;
+}
+
+/* Add Keyframe Animations */
+
+/* Apply Animations */
+
+
+/* View Transition for single elements or groups
+############################################################################ */
+
+.title {
+  view-transition-name: heading;
+}

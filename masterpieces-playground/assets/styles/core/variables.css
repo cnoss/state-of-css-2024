@@ -1,0 +1,89 @@
+/* stylelint-disable */
+
+:root {
+
+  color-scheme: dark light;
+
+  /* Colors */
+  --color-light: hsl(0deg 0% 80%);
+  --color-lighter: hsl(0deg 0% 90%);
+  --color-lightest: hsl(0deg 0% 100%);
+  --color-dark: hsl(0deg 0% 20%);
+  --color-darker: hsl(0deg 0% 10%);
+  --color-darkest: hsl(0deg 0% 0%);
+  --color-darken: hsl(0deg 0% 0%/ 30%);
+  --color-darken-light: hsl(0deg 0% 0%/ 10%);
+  --color-darken-medium: hsl(0deg 0% 0%/ 50%);
+  --color-darken-strong: hsl(0deg 0% 0%/ 80%);
+  --color-lighten: hsl(0deg 0% 100%/ 30%);
+  --color-lighten-light: hsl(0deg 0% 100%/ 10%);
+  --color-lighten-strong: hsl(0deg 0% 100%/ 80%);
+  --color-cda-yellow-dark: #FEB701;
+
+  --color-bg: light-dark(var(--color-lightest), var(--color-darker));
+  --color-fg: light-dark(var(--color-darker), var(--color-lightest));
+  --color-interaction: var(--color-cda-yellow-dark);
+
+  /* Fonts */
+  --ff-headlines: ibm-plex, arial, helvetica, sans-serif;
+  --ff-primary: ibm-plex, arial, helvetica, sans-serif;
+  --ff-icons: material-icons;
+
+  /* Font weights */
+  --fw-light: 200;
+  --fw-normal: 400;
+  --fw-medium: 500;
+  --fw-bold: 600;
+
+  /* Line heights */
+  --lh-tight: 110%;
+  --lh-normal: 140%;
+  --lh-loose: 160%;
+
+  /* Sizes */
+  --basefont-size: clamp(1rem, 1.5vw, 1.2rem);
+  --size-xs: calc(var(--basefont-size) * 0.6);
+  --size-s: calc(var(--basefont-size) * 0.8);
+  --size-m: calc(var(--basefont-size) * 1);
+  --size-l: calc(var(--basefont-size) * 1.3);
+  --size-xl: calc(var(--basefont-size) * 1.8);
+  --size-xxl: calc(var(--basefont-size) * 2.5);
+  --size-xxxl: calc(var(--basefont-size) * 4);
+  --size-eighth: calc(var(--size-m) / 8);
+  --size-quarter: calc(var(--size-m) / 4);
+  --size-half: calc(var(--size-m) / 2);
+
+  /* Spaces */
+  --fluid-space-xs: clamp(0.25em, 1vw, 0.5em);
+  --fluid-space-s: clamp(0.5em, 1vw, 1em);
+  --fluid-space-m: clamp(1em, 1vw, 2em);
+  --fluid-space-l: clamp(2em, 1vw, 4em);
+  --fluid-space-xl: clamp(4em, 1vw, 8em);
+  --fluid-space-xxl: clamp(8em, 1vw, 16em);
+
+
+  /* Transitions */
+  --tr-fast: 0.3s;
+  --tr-normal: 0.6s;
+  --tr-slow: 1s;
+
+  /* Box Sizes */
+  --max-text-width: 40em;
+  --max-content-width: 60em;
+
+  /* Buttons */
+  --button-border-width: var(--border-width);
+  --button-border-color: var(--color-cg-pink);
+  --button-text-color: var(--color-lightest);
+  --button-bg-color: var(--color-darkest);
+  --button-bg-hover-color: var(--color-lighten-strong);
+
+  /* Misc */
+  --border-width: 2px;
+  --level-bg: 0;
+  --level-fg: 10;
+  --radius-m: 3px;
+  --text-gradient: linear-gradient(90deg,var(--color-cg-pink) , var(--color-cg-gruen));
+  --text-gradient-reversed: linear-gradient(270deg,var(--color-cg-pink) , var(--color-cg-gruen));
+  --box-shadow: 0 0 1em #000;
+}

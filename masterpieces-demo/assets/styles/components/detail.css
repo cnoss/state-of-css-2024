@@ -1,0 +1,39 @@
+/* Detail
+############################################################################ */
+
+.detail{
+  display: flex;
+  overflow: clip;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  
+  p{
+    max-width: 60ch;
+    animation: linear detail both;
+    animation-range: entry 25% cover 100%;
+    animation-timeline: --detail-animation;
+    font-size: var(--size-l);
+    view-timeline-axis: block;
+    view-timeline-name: --detail-animation;
+  }
+}
+
+@keyframes detail {
+  0%{
+    opacity: 0.5;
+    transform: scale(0) translateX(50%);
+  }
+
+  80%{
+    filter: blur(0);
+    opacity: 1;
+    transform: scale(1) translateX(0);
+  }
+
+  100% {
+    filter: blur(20px);
+    opacity: 0.5;
+    transform: scale(2) translateX(0);
+  }
+}

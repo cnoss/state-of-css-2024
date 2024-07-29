@@ -1,0 +1,123 @@
+/* Masterpiece
+############################################################################ */
+
+.masterpiece {
+  display: grid;
+  font-weight: var(--fw-light);
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+
+
+  .specs {
+    padding-top: var(--fluid-space-xl);
+    color: var(--color-lighten);
+    font-size: var(--size-s);
+  }
+
+  .text-content {
+    display: flex;
+    max-width: 40em;
+    flex-direction: column;
+    justify-content: center;
+    padding: calc(var(--fluid-space-m) * 1.3) var(--fluid-space-m);
+    padding-right: var(--fluid-space-xxl);
+  }
+
+  .visual-content {
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    perspective: 300px;
+
+    img {
+      width: 100%;
+      height: 100%;
+      padding: var(--fluid-space-xl);
+      object-fit: contain;
+    }
+  }
+
+  &[data-layout="simple"] {
+    display: flex;
+    flex-direction: row-reverse;
+
+    img{
+      min-width: 30vw;
+      min-height: 20vh;
+      max-height: 70vh;
+    }    
+  }
+
+  &[data-layout="portrait"] {
+    figure {
+      grid-column: 1 / 3;
+      grid-row: 1 / 6;
+    }
+
+    .text-content {
+      grid-column: 3 / 6;
+      grid-row: 1 / 6;
+      ;
+    }
+  }
+
+  &[data-layout="landscape"] {
+    figure {
+      z-index: 1;
+      grid-column: 1 / 6;
+      grid-row: 1 / 4;
+
+      img{
+        max-height: 80vh;
+      }
+    }
+
+    .text-content {
+      z-index: 2;
+      max-width: 90ch;
+      justify-content: flex-start;
+      background-color: var(--color-bg);
+      grid-column: 3 / 6;
+      grid-row: 4 / 6;
+    }
+  }
+
+  &[data-layout="square"] {
+    figure {
+      align-items: center;
+      justify-content: center;
+      grid-column: 1 / 4;
+      grid-row: 1 / 6;
+
+      img {
+        max-width: 50vw;
+        max-height: 90vh;;
+      }
+    }
+
+    .text-content {
+      grid-column: 4 / 6;
+      grid-row: 1 / 6;
+      ;
+    }
+  }
+}
+
+/* Animation
+############################################################################ */
+
+/* Keyframe Animationen addieren */
+
+/* Diese Klasse soll für die Bildanimationen verwendet werden. */
+/* stylelint-disable */
+.revealing-image {
+
+}
+
+
+/* Diese Klasse soll für die Textanimationen verwendet werden. */
+.text-fade {
+  
+}
+/* stylelint-enable */

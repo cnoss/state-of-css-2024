@@ -1,0 +1,27 @@
+{
+  "name": "state-of-css-2024-demo",
+  "version": "1.0.0",
+  "description": "Startercode for Workshop",
+  "main": "index.js",
+  "scripts": {
+    "server": "npx light-server -s . -p 4000 -w \"./**\"",
+    "lint": "stylelint assets/styles/**/*.css",
+    "lint:fix": "stylelint assets/styles/**/*.css --fix",
+    "dev": "npm-run-all --parallel server lint",
+    "quiet": "npm-run-all --parallel server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mi-classroom/fd-html-und-css-cnoss"
+  },
+  "author": "Christian Noss",
+  "license": "ISC",
+  "devDependencies": {
+    "light-server": "^2.9.1",
+    "npm-run-all": "^4.1.5",
+    "stylelint": "^16.4.0",
+    "stylelint-config-idiomatic-order": "^10.0.0",
+    "stylelint-config-standard": "^36.0.0",
+    "stylelint-order": "^6.0.4"
+  }
+}

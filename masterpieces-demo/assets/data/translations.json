@@ -1,0 +1,622 @@
+{
+  "date": {
+    "de": "Datum",
+    "en": "Date"
+  },
+  "all": {
+    "de": "Alle",
+    "en": "All"
+  },
+  "referenceOnPage": {
+    "de": "Erwähnt auf Seite",
+    "en": "Reference on page"
+  },
+  "prints": {
+    "de": "Drucke und Zeichnungen",
+    "en": "Prints and Drawings"
+  },
+  "paintings": {
+    "de": "Gemälde",
+    "en": "Paintings"
+  },
+  "archivalDocuments": {
+    "de": "Archivalien",
+    "en": "Archival Documents"
+  },
+  "archival": {
+    "de": "Archivalie",
+    "en": "Archival Document"
+  },
+  "literatureDocuments": {
+    "de": "Literatur",
+    "en": "Literature"
+  },
+  "back": {
+    "de": "zurück zur Übersicht",
+    "en": "back to the overview"
+  },
+  "conditionPrint": {
+    "de": "Druckzustand, Version",
+    "en": "Condition"
+  },
+  "stateAndEdition": {
+    "de": "Zustand / Auflage",
+    "en": "State / Edition"
+  },
+  "dating": {
+    "de": "Datierung",
+    "en": "Dating"
+  },
+  "dimensions": {
+    "de": "Maße",
+    "en": "Dimensions"
+  },
+  "medium": {
+    "de": "Material / Technik",
+    "en": "Medium"
+  },
+  "owner": {
+    "de": "Eigentümer",
+    "en": "Owner"
+  },
+  "repository": {
+    "de": "Besitzer",
+    "en": "Repository"
+  },
+  "repositoryAndLocation": {
+    "de": "Besitzer/ Standort",
+    "en": "Repository"
+  },
+  "location": {
+    "de": "Standort",
+    "en": "Location"
+  },
+  "locationAndDate": {
+    "de": "Ort und Datum",
+    "en": "Location and Date"
+  },
+  "locationDate": {
+    "de": "Ort / Datum",
+    "en": "Location / Date"
+  },
+  "signature": {
+    "de": "Signatur",
+    "en": "Signature"
+  },
+  "kuerzel": {
+    "de": "Kürzel",
+    "en": "Signature"
+  },
+  "signatureAndDate": {
+    "de": "Signatur / Datierung",
+    "en": "Signature / Dating"
+  },
+  "inscriptions": {
+    "de": "Inschriften",
+    "en": "Inscriptions"
+  },
+  "inscriptionsInnerHeadline": {
+    "de": "Inschriften, Wappen",
+    "en": "Inscriptions, Badges"
+  },
+  "inscriptionsOuterHeadline": {
+    "de": "Inschriften und Beschriftungen",
+    "en": "Inscriptions and Labels"
+  },
+  "stamps": {
+    "de": "Stempel, Siegel, Beschriftungen",
+    "en": "Stamps, Seals, Labels"
+  },
+  "labelsInnerHeadline": {
+    "de": "Stempel, Siegel, Beschriftungen",
+    "en": "Stamps, Seals, Labels"
+  },
+  "shortDescription": {
+    "de": "Kurzbeschreibung",
+    "en": "Short description"
+  },
+  "provenance": {
+    "de": "Provenienz",
+    "en": "Provenance"
+  },
+  "literature": {
+    "de": "Quellen / Publikationen",
+    "en": "Literature"
+  },
+  "publications": {
+    "de": "Publikationen",
+    "en": "Publications"
+  },
+  "primarySources": {
+    "de": "Quellen",
+    "en": "Primary Sources"
+  },
+  "references": {
+    "de": "Forschungsliteratur",
+    "en": "References"
+  },
+  "exhibitions": {
+    "de": "Ausstellungen",
+    "en": "Exhibitions"
+  },
+  "vd16No": {
+    "de": "VD16-Nr.",
+    "en": "VD16-No."
+  },
+  "ArtTechExamination": {
+    "de": "Kunsttechnologische Untersuchung",
+    "en": "Technical studies"
+  },
+  "condition": {
+    "de": "Erhaltungszustand",
+    "en": "Condition"
+  },
+  "ConditionReport": {
+    "de": "Erhaltungszustand",
+    "en": "Condition Reports"
+  },
+  "ConservationReport": {
+    "de": "Restaurierungsgeschichte",
+    "en": "Conservation History"
+  },
+  "attribution": {
+    "de": "Zuschreibung",
+    "en": "Attribution"
+  },
+  "attributions": {
+    "de": "Zuschreibungen",
+    "en": "Attributions"
+  },
+  "productionDate": {
+    "de": "Datierung",
+    "en": "Production date"
+  },
+  "productionDates": {
+    "de": "Datierungen",
+    "en": "Production dates"
+  },
+  "permalink": {
+    "de": "Permalink",
+    "en": "Persistent Link"
+  },
+  "link": {
+    "de": "Link",
+    "en": "Link"
+  },
+  "objectName": {
+    "de": "FR (1978) Nr.",
+    "en": "FR (1978) Nr."
+  },
+  "catalogueNumber": {
+    "de": "Katalognummer",
+    "en": "Catalogue Number"
+  },
+  "figurePlate": {
+    "de": "Abbildung / Tafel",
+    "en": "Figure / Plate"
+  },
+  "plate": {
+    "de": "Tafel",
+    "en": "Figure / Plate"
+  },
+  "title": {
+    "de": "Titel",
+    "en": "Title"
+  },
+  "titles": {
+    "de": "Titel",
+    "en": "Titles"
+  },
+  "subTitle": {
+    "de": "Untertitel",
+    "en": "Subtitle"
+  },
+  "shortTitle": {
+    "de": "Kurztitel",
+    "en": "Short title"
+  },
+  "longTitle": {
+    "de": "Titel",
+    "en": "Title"
+  },
+  "journal": {
+    "de": "Zeitschrift",
+    "en": "Journal"
+  },
+  "series": {
+    "de": "Reihe",
+    "en": "Series"
+  },
+  "volume": {
+    "de": "Band",
+    "en": "Volume"
+  },
+  "edition": {
+    "de": "Ausgabe",
+    "en": "Edition"
+  },
+  "publishEdition": {
+    "de": "Jahrgang",
+    "en": "Issue"
+  },
+  "publishLocation": {
+    "de": "Ort der Veröffentlichung",
+    "en": "Place of Publication"
+  },
+  "publishDate": {
+    "de": "Jahr der Veröffentlichung",
+    "en": "Year of Publication"
+  },
+  "referenceNumber": {
+    "de": "Referenznummer",
+    "en": "Reference Number"
+  },
+  "copyright": {
+    "de": "Copyright",
+    "en": "Copyright"
+  },
+  "publisher": {
+    "de": "Herausgeber/in",
+    "en": "Editor"
+  },
+  "editorialStaff": {
+    "de": "Redaktion",
+    "en": "Editorial staff"
+  },
+  "editing": {
+    "de": "Bearbeitung",
+    "en": "Editing"
+  },
+  "illustrator": {
+    "de": "Illustrator",
+    "en": "Illustrator"
+  },
+  "publishingHouse": {
+    "de": "Verlag",
+    "en": "Publishing house"
+  },
+  "inCollaboration": {
+    "de": "Verlag",
+    "en": "In collaboration"
+  },
+  "illustrations": {
+    "de": "Abbildungen",
+    "en": "Images"
+  },
+  "documents": {
+    "de": "Dokumente",
+    "en": "Documents"
+  },
+  "translation": {
+    "de": "Übersetzung",
+    "en": "Translation"
+  },
+  "transcription": {
+    "de": "Transkription",
+    "en": "Transcription"
+  },
+  "print": {
+    "de": "Druck",
+    "en": "Print"
+  },
+  "officin": {
+    "de": "Offizin",
+    "en": "Officin"
+  },
+  "unknown": {
+    "de": "Unbekannt",
+    "en": "Unknown"
+  },
+  "pages": {
+    "de": "Seiten",
+    "en": "Pages"
+  },
+  "issue": {
+    "de": "Jahrgang",
+    "en": "Issue"
+  },
+  "publication": {
+    "de": "Veröffentlichung",
+    "en": "Publication"
+  },
+  "mention": {
+    "de": "Erwähnung",
+    "en": "Mention"
+  },
+  "bookFormat": {
+    "de": "Buchformat",
+    "en": "Book format"
+  },
+  "periodOfOrigin": {
+    "de": "Entstehungszeitraum",
+    "en": "Period of Origin"
+  },
+  "author": {
+    "de": "Autor/in",
+    "en": "Author"
+  },
+  "alternativeNumbers": {
+    "de": "Referenzen",
+    "en": "References"
+  },
+  "authorAndRights": {
+    "de": "Autor und Rechte",
+    "en": "Author & Rights"
+  },
+  "source": {
+    "de": "Quelle",
+    "en": "Source"
+  },
+  "allImages": {
+    "de": "Alle Abbildungen",
+    "en": "All Images"
+  },
+  "overall": {
+    "de": "Gesamtaufnahmen",
+    "en": "Overall"
+  },
+  "reverse": {
+    "de": "Rückseitenaufnahmen",
+    "en": "Reverse"
+  },
+  "irr": {
+    "de": "Infrarotaufnahmen",
+    "en": "Infrared Images"
+  },
+  "x_radiograph": {
+    "de": "Röntgenaufnahmen",
+    "en": "X-Radiographs"
+  },
+  "uv_light": {
+    "de": "UV-Fluoreszenzaufnahmen",
+    "en": "UV Images"
+  },
+  "transmitted_light": {
+    "de": "Durchlichtaufnahmen",
+    "en": "Transmitted-light"
+  },
+  "detail": {
+    "de": "Detailaufnahmen",
+    "en": "Detail Images"
+  },
+  "photomicrograph": {
+    "de": "Mikroskopaufnahmen",
+    "en": "Photomicrographs"
+  },
+  "koe": {
+    "de": "KOE",
+    "en": "KOE"
+  },
+  "conservation": {
+    "de": "Restaurierung",
+    "en": "Conservation"
+  },
+  "other": {
+    "de": "Andere",
+    "en": "Other"
+  },
+  "analysis": {
+    "de": "Untersuchungsergebnisse",
+    "en": "Analysis"
+  },
+  "rkd": {
+    "de": "Max J. Friedländer-Archiv",
+    "en": "Max J. Friedländer Archive"
+  },
+  "showMore": {
+    "de": "mehr Inhalte zeigen",
+    "en": "show more content"
+  },
+  "showLess": {
+    "de": "weniger Inhalte zeigen",
+    "en": "hide content"
+  },
+  "RELATED_IN_CONTENT_TO": {
+    "de": "Versionen",
+    "en": "Versions"
+  },
+  "SIMILAR_TO": {
+    "de": "Vergleichbare Motive",
+    "en": "Similar Motifs"
+  },
+  "BELONGS_TO": {
+    "de": "Bildträger aus dem selben Baum gefertigt",
+    "en": "Support made from the same tree"
+  },
+  "GRAPHIC": {
+    "de": "Grafik",
+    "en": "Graphic Art"
+  },
+  "masterData": {
+    "de": "Werkdaten",
+    "en": "Master Data"
+  },
+  "classification": {
+    "de": "Klassifikation",
+    "en": "Classification"
+  },
+  "PART_OF_WORK": {
+    "de": "Zugehörige Werke",
+    "en": "Connected Works"
+  },
+  "overallViewOfThePiece":{
+    "de": "Gesamtansicht des Werkes",
+    "en": "Overall view of the piece"
+  },
+  "kindOfImage": {
+    "de": "Art der Abbildung",
+    "en": "File type / description"
+  },
+  "textCategory": {
+    "de": "Textart",
+    "en": "Text Category"
+  },
+  "citeCdaHeadline": {
+    "de": "Zitieren aus dem Cranach Digital Archive",
+    "en": "Citing from the Cranach Digital Archive"
+  },
+  "citeWithAutor": {
+    "de": "Eintrag mit Autor",
+    "en": "Entry with author"
+  },
+  "citeWithAutorText": {
+    "de": "<Autorenname>, '{{objectTitle}}', <Titel des Dokuments, Feldeintrags oder der Abbildung>, [<Datum des Dokuments oder der Abbildung>], in: Cranach Digital Archive, {{objectUrl}} (zuletzt aufgerufen am {{dateAccessed}})",
+    "en": "<author's name>, '{{objectTitle}}', <title of document, data entry or image>. [<Date of document or image>], in: Cranach Digital Archive, {{objectUrl}} (Accessed {{dateAccessed}})"
+  },
+  "citeWithoutAutor": {
+    "de": "Eintrag ohne Autor",
+    "en": "Entry with no author"
+  },
+  "citeWithoutAutorText": {
+    "de": "'{{objectTitle}}', <Titel des Dokuments, Feldeintrags oder der Abbildung>, [<Datum des Dokuments oder der Abbildung>], in: Cranach Digital Archive, {{objectUrl}} (zuletzt aufgerufen am {{dateAccessed}})",
+    "en": "'{{objectTitle}}', <title of document, data entry or image>. [<Date of document, entry or image>], in: Cranach Digital Archive, {{objectUrl}} (Accessed {{dateAccessed}})"
+  },
+  "example": {
+    "de": "Beispiel",
+    "en": "Example"
+  },
+  "pageGenerated": {
+    "de": "Erzeugt am",
+    "en": "created on"
+  },
+  "youHaveAdditionalInformation": {
+    "de": "ergänzende Informationen haben.",
+    "en": "have some extra information about this object."
+  },
+  "foundABug": {
+    "de": "Sie einen Fehler bemerkt haben.",
+    "en": "you have noticed a mistake."
+  },
+  "contactUs": {
+    "de": "Bitte kontaktieren Sie uns, wenn",
+    "en": "Please contact us, if"
+  },
+  "improveCdaHeadline": {
+    "de": "Helfen Sie uns das Cranach Digital Archive zu verbessern.",
+    "en": "Help us to improve the Cranach Digital Archive."
+  },
+  "or": {
+    "de": "oder",
+    "en": "or"
+  },
+  "physicalDescription": {
+    "de": "Buchformat",
+    "en": "Book format"
+  },
+  "hollstein": {
+    "de": "Hollstein-Nr.",
+    "en": "Hollstein-No"
+  },
+  "kkl": {
+    "de": "KKL-Nr.",
+    "en": "KKL-No"
+  },
+  "bartsch": {
+    "de": "Bartsch-Nr.",
+    "en": "Bartsch-No"
+  },
+  "impressions": {
+    "de": "Abzüge",
+    "en": "Impressions"
+  },
+  "1-state": {
+    "de": "1. Zustand",
+    "en": "1. State"
+  },
+  "2-state": {
+    "de": "2. Zustand",
+    "en": "2. State"
+  },
+  "3-state": {
+    "de": "3. Zustand",
+    "en": "3. State"
+  },
+  "4-state": {
+    "de": "4. Zustand",
+    "en": "4th State"
+  },
+  "5-state": {
+    "de": "5. Zustand",
+    "en": "5th State"
+  },
+  "6-state": {
+    "de": "6. Zustand",
+    "en": "6th State"
+  },
+  "7-state": {
+    "de": "7. Zustand",
+    "en": "7th State"
+  },
+  "8-state": {
+    "de": "8. Zustand",
+    "en": "8th State"
+  },
+  "9-state": {
+    "de": "9. Zustand",
+    "en": "9th State"
+  },
+  "10-state": {
+    "de": "10. Zustand",
+    "en": "10th State"
+  },
+  "zur-suche": {
+    "de": "zur Suche",
+    "en": "go to search"
+  }, 
+  "zur-werksuche": {
+    "de": "zur Werksuche",
+    "en": "go to works search"
+  },
+  "zur-literatursuche": {
+    "de": "zur Literatursuche",
+    "en": "go to literature search"
+  },
+  "trans-to": {
+    "de": "Transkription nach",
+    "en": "Transcription according to"
+  },
+  "trans-date": {
+    "de": "Transkription Datum",
+    "en": "Transcription Date"
+  },
+  "trans-by": {
+    "de": "Transkription durch",
+    "en": "Transcription by"
+  },
+  "comments": {
+    "de": "Kommentare",
+    "en": "Comments"
+  },
+  "partOfImageGroup": {
+    "de": "Teil der Bildnisgruppe",
+    "en": "Part of portait group"
+  },
+  "partOfAppendix": {
+    "de": "Teil des KKL-Anhangs",
+    "en": "Part of KKL appendix"
+  },
+  "positionInVolume": {
+    "de": "Position im Band",
+    "en": "Position in volume"
+  },
+  "compareImages": {
+    "de": "Abbildungen vergleichen",
+    "en": "Compare images"
+  },
+  "beschreibung-interpretation-kommentare": {
+    "de": "Forschungsgeschichte / Diskussion",
+    "en": "Research History / Discussion"
+  },
+  "description-interpretation-comments": {
+    "de": "Forschungsgeschichte / Diskussion",
+    "en": "Research History / Discussion"
+  },
+  "showLiterature": {
+    "de": "Literatur anzeigen",
+    "en": "Show Literature"
+  },
+  "worksDiscussedInPublication":{
+    "de": "In der Publikation besprochene Werke",
+    "en": "Works discussed in publication"
+  }
+}

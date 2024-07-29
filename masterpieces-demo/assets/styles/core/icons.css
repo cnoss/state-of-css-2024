@@ -1,0 +1,83 @@
+.icon {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  direction: ltr;
+  font-family: var(--ff-icons);
+  font-feature-settings: "liga";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: normal;
+  line-height: inherit;
+  text-rendering: optimizelegibility;
+  text-transform: none;
+  vertical-align: bottom;
+  white-space: nowrap;
+  word-wrap: normal;
+}
+
+.has-icon::before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: var(--size-xs);
+  display: flex;
+  width: auto;
+  height: auto;
+  align-items: center;
+  content: "folder";
+  direction: ltr;
+  font-family: var(--ff-icons);
+  font-feature-settings: "liga";
+  font-size: var(--size-xl);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-weight: normal;
+  justify-self: center;
+  letter-spacing: normal;
+  line-height: inherit;
+  text-rendering: optimizelegibility;
+  text-transform: none;
+  vertical-align: bottom;
+  white-space: nowrap;
+  word-wrap: normal;
+}
+
+.icon-s {
+  font-size: var(--size-s);
+  line-height: var(--size-s);
+}
+
+.icon-m {
+  font-size: var(--size-m);
+  line-height: var(--size-m);
+}
+
+.icon-l {
+  font-size: var(--size-l);
+  line-height: var(--size-l);
+}
+
+.icon-xl {
+  font-size: var(--size-xl);
+  line-height: var(--size-xl);
+}
+
+.icon.md-dark { color: var(--size-lightest); }
+.icon.md-light { color: var(--darkest); }
+
+.icon-inline {
+  margin-right: var(--size-xs);
+  font-size: var(--size-m);
+}
+
+.icon::before {
+  content: attr(data-icon);
+}
+
+.icon-video::before { content: "smart_display"; }
+.icon-document::before { content: "description"; }
+.icon-folder::before { content: "folder"; }

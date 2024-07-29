@@ -1,0 +1,48 @@
+/* Links
+############################################################################ */
+
+.links {
+  display: flex;
+  margin-top: var(--size-l);
+  gap: var(--size-s);
+  
+  li{
+    display: inline-block;
+    padding: var(--size-quarter) var(--size-s) calc(var(--size-quarter) * 1.4);
+    border: solid var(--button-border-width) var(--button-border-color);
+    border-radius: var(--radius-m);
+    background-color: var(--button-bg-color);
+    color: var(--button-text-color);
+    line-height: 100%;
+    transition: all var(--tr-fast);
+
+    *{
+      font-weight: var(--fw-medium);
+      line-height: 100%;
+    }
+
+    &:hover{
+      border-color: var(--color-cg-gruen);
+      box-shadow: var(--box-shadow);
+      transform: scale(1.2) rotate(5deg);
+
+      a{
+        text-decoration: none;
+      }
+    }
+  }
+
+}
+
+/* More
+############################################################################ */
+
+.more{
+  margin-left: -0.1em;
+  color: var(--color-interaction);
+  transition: all var(--tr-fast);
+
+  &:hover{
+    margin-left: 0;
+  }
+}

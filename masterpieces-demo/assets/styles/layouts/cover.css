@@ -1,0 +1,16 @@
+/* Cover
+############################################################################ */
+.cover{
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10%;
+  
+
+  .title, .subtitle{
+    color: var(--color-lightest);
+    text-shadow: 0 0 5px hsl(0deg 0% 100% / 80%);
+  }
+
+}

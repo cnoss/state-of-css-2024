@@ -1,0 +1,74 @@
+/* Wall
+############################################################################ */
+
+.wall {
+  display: grid;
+  padding: 0;
+  margin-bottom: 50vh;
+  grid-template-columns: repeat(10 , 1fr);
+  grid-template-rows: auto;
+  perspective: 600px;
+
+
+  @media (aspect-ratio <= 3/4){
+    grid-template-columns: repeat(5 , 1fr);
+  }
+
+  @media (aspect-ratio >= 3/4) and (aspect-ratio <= 5/3) {
+    grid-template-columns: repeat(10 , 1fr);
+  }
+
+  @media (aspect-ratio >= 16/9) {
+    grid-template-columns: repeat(15 , 1fr);
+  }
+
+  img{
+    display: block;
+    width: 100%;
+    aspect-ratio: 1/1;
+    filter: contrast(1.1);
+    mix-blend-mode: lighten;
+    object-fit: cover;
+    object-position: top center;
+    
+  }
+
+  .image-wrap{
+    position: relative;
+    z-index: 10;
+    display: block;
+    border: solid 2px var(--color-lightest);
+    aspect-ratio: 1/1;
+    background-color: var(--color-darkest);
+
+
+    a{
+      display: block;
+      aspect-ratio: 1/1;
+    }
+  }
+}
+
+/* Animation
+############################################################################ */
+
+
+@keyframes rotate-in {
+	0% {
+    opacity: 0;
+		transform: rotateY(90deg)  translateZ(0) scale(0);
+	}
+
+  100% {
+    opacity: 1;
+    transform: rotateY(0deg) translateZ(100px) scale(1);
+  }
+}
+
+.wall > * {
+	animation: linear rotate-in both;
+	animation-range: entry 1% cover 50%;
+	animation-timeline: --revealing-image;
+	view-timeline-axis: block;
+	view-timeline-name: --revealing-image;
+}
